@@ -1,10 +1,11 @@
 cask "1password-beta" do
-  version "7.7.BETA-9"
+  version "7.7.BETA-10"
   sha256 "feb4c145b2b07827fa46016a7f07546908fba382ca7d75cfab08398683ba715c"
 
   url "https://c.1password.com/dist/1P/mac#{version.major}/1Password-#{version}.zip"
   appcast "https://app-updates.agilebits.com/product_history/OPM#{version.major}"
   name "1Password"
+  desc "Password manager that keeps all passwords secure behind one password"
   homepage "https://1password.com/"
 
   auto_updates true
